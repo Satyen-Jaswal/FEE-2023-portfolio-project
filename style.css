@@ -5,6 +5,7 @@ body {
 }
 
 .grid-container {
+  /* height: 100vh; */
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -33,6 +34,10 @@ p {
 a {
   text-decoration: none;
   color: black;
+}
+
+a[href="aboutME.html"]{
+  color: #e7e7e7;
 }
 
 img {
@@ -79,8 +84,10 @@ img {
   justify-content: space-around;
   align-items: center;
   grid-row: span 2;
-  background-color: #d7f7a8;
-  /* padding: 0 40px; */
+  /* background-color: #d7f7a8; */
+  /* background-color: #FAAB78; */
+  background: linear-gradient(to bottom right,#00c4cc,#8b3dff);
+  color: #e7e7e7;
 }
 
 .right-card > div {
@@ -115,7 +122,7 @@ button:hover {
   position: absolute;
   width: 120px;
   height: 120px;
-  background: red;
+  background: #FF0000;
   margin: 50px;
   border-radius: 50%;
   display: flex;
@@ -191,7 +198,7 @@ button:hover {
     margin: 20px;
   }
   .eyes{
-    height: 15px;
-    width: 10px;
+    height: 12px;
+    width: 8px;
   }
 }
