@@ -38,6 +38,10 @@ a {
 
 a[href="aboutME.html"]{
   color: #e7e7e7;
+  font-weight: bold;
+  background: #e7e7e760;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 img {
